@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[986],{986:(n,e,l)=>{l.r(e),l.d(e,{mount:()=>c,unmount:()=>f});var u=l(294),t=l(745),r=function(){return u.createElement("div",null,"Profile App MF")},o=null,c=function(n){null===o&&(o=(0,t.s)(n)),o.render(u.createElement(r,null))},f=function(){null!==o&&(o.unmount(),o=null)}}}]);
