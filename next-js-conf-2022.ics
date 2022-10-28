@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+PRODID:-//AddEvent Inc//AddEvent.com v1.7//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20221106T010000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20220313T030000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20221017T072351Z
+STATUS:CONFIRMED
+UID:1665991431addeventcom
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20221025T103000
+DTEND;TZID=America/Los_Angeles:20221025T143000
+SUMMARY:Next.js Conf 2022
+DESCRIPTION:Clear your schedule for Next.js Conf 2022!\n\nThis is an online event developers love. Join to learn the latest in Next.js\, get demos of new and favorite features\, and interact with presenters and the Next.js community in our Discord.\n\nStart chatting with attendees today: nextjs.org/discord
+X-ALT-DESC;FMTTYPE=text/html:Clear your schedule for Next.js Conf 2022!<br><br>This is an online event developers love. Join to learn the latest in Next.js, get demos of new and favorite features, and interact with presenters and the Next.js community in our Discord.<br><br>Start chatting with attendees today: nextjs.org/discord
+LOCATION:nextjs.org/conf
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
