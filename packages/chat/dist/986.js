@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchat=self.webpackChunkchat||[]).push([[986],{986:(n,u,e)=>{e.r(u),e.d(u,{mount:()=>a,unmount:()=>h});var l=e(294),t=e(745),c=function(){return l.createElement("div",null,"Chat App MF")},r=null,a=function(n){null===r&&(r=(0,t.s)(n)),r.render(l.createElement(c,null))},h=function(){null!==r&&(r.unmount(),r=null)}}}]);

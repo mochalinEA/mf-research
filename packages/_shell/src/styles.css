@@ -1,0 +1,30 @@
+body {
+  background-color: #ecebeb;
+  color: #03365f;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template: "header header" "sidebar content" / 200px 1fr;
+}
+
+.grid__item:first-child {
+  grid-area: header;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.grid__item:nth-child(2) {
+  grid-area: sidebar;
+  border: 1px solid gray;
+}
+
+.grid__item:nth-child(3) {
+  grid-area: content;
+  border: 1px solid gray;
+}
+
+.active {
+  color: green;
+}
